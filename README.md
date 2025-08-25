@@ -34,16 +34,19 @@ Copy .env.example to .env and update database credentials:
     DB_PASSWORD=
 
 4. Generate application key
-php artisan key:generate
 
-5. Run migrations & seeders
-php artisan migrate:fresh --seed
+   php artisan key:generate
 
-6. Login Crendentials
-Username: developer
-Password: Test@Password123#
+6. Run migrations & seeders
 
-7. start the server
+  php artisan migrate:fresh --seed
+
+7. Login Crendentials
+
+   Username: developer
+   Password: Test@Password123#
+
+9. start the server
 php artisan serve
 
 
